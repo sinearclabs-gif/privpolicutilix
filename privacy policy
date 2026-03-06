@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — Utilix</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.8;
+    }
+    .hero {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border-bottom: 1px solid #1e293b;
+      padding: 60px 24px 40px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(249,115,22,0.12);
+      border: 1px solid rgba(249,115,22,0.3);
+      color: #f97316;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      padding: 6px 18px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+    .hero h1 span { color: #f97316; }
+    .hero p { color: #94a3b8; font-size: 15px; }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .updated {
+      background: rgba(249,115,22,0.08);
+      border: 1px solid rgba(249,115,22,0.15);
+      border-radius: 12px;
+      padding: 14px 20px;
+      margin-bottom: 40px;
+      color: #f97316;
+      font-size: 13px;
+    }
+    .section {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+    .section h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section h2 .icon {
+      width: 36px; height: 36px;
+      background: rgba(249,115,22,0.15);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    .section p { color: #94a3b8; font-size: 15px; margin-bottom: 12px; }
+    .section p:last-child { margin-bottom: 0; }
+    .perm-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 14px;
+      margin-top: 8px;
+    }
+    .perm-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 14px;
+      padding: 16px 18px;
+    }
+    .perm-card .perm-name {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #f97316;
+      margin-bottom: 4px;
+      font-family: monospace;
+    }
+    .perm-card .perm-desc {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+    ul { list-style: none; padding: 0; }
+    ul li {
+      color: #94a3b8;
+      font-size: 15px;
+      padding: 6px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+    ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: #f97316;
+    }
+    a { color: #f97316; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact-box {
+      background: linear-gradient(135deg, rgba(249,115,22,0.1), rgba(249,115,22,0.05));
+      border: 1px solid rgba(249,115,22,0.2);
+      border-radius: 20px;
+      padding: 32px;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .contact-box h3 { color: #fff; font-size: 20px; margin-bottom: 10px; }
+    .contact-box p { color: #94a3b8; margin-bottom: 16px; }
+    .contact-box a {
+      display: inline-block;
+      background: #f97316;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .footer {
+      text-align: center;
+      color: #475569;
+      font-size: 13px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="badge">LEGAL</div>
+    <h1>Privacy Policy — <span>Utilix</span></h1>
+    <p>We respect your privacy. Here's exactly what we do and don't do with your data.</p>
+  </div>
+
+  <div class="container">
+
+    <div class="updated">
+      📅 Last Updated: March 7, 2026 &nbsp;|&nbsp; Effective Date: March 7, 2026 &nbsp;|&nbsp; App: Utilix &nbsp;|&nbsp; Package: com.smarttools.utilix
+    </div>
+
+    <!-- Introduction -->
+    <div class="section">
+      <h2><span class="icon">👋</span> Introduction</h2>
+      <p>
+        Utilix ("we", "our", or "us") is an all-in-one utility app built by SmartTools. This Privacy Policy explains how we collect, use, and protect your information when you use the Utilix mobile application ("App") available on the Google Play Store.
+      </p>
+      <p>
+        By using Utilix, you agree to the practices described in this policy. If you do not agree, please discontinue use of the App.
+      </p>
+    </div>
+
+    <!-- Permissions -->
+    <div class="section">
+      <h2><span class="icon">🔐</span> Permissions We Request & Why</h2>
+      <p>Utilix requests the following device permissions solely to provide core functionality. We never use permissions for advertising or tracking.</p>
+
+      <div class="perm-grid" style="margin-top:20px;">
+
+        <div class="perm-card">
+          <div class="perm-name">CAMERA</div>
+          <div class="perm-desc">Used by the QR Scanner to scan barcodes and by the Magnifier tool to use the camera as a lens. Camera data is processed on-device and never uploaded.</div>
+        </div>
+
+        <div class="perm-card">
+          <div class="perm-name">FLASHLIGHT / TORCH</div>
+          <div class="perm-desc">Used exclusively by the Flashlight tool to control the device torch. No data is collected.</div>
+        </div>
+
+        <div class="perm-card">
+          <div class="perm-name">RECORD_AUDIO / MICROPHONE</div>
+          <div class="perm-desc">Used by the Sound Meter tool to measure decibel levels in real-time. Audio is never recorded, stored, or transmitted — processing is fully on-device.</div>
+        </div>
+
+        <div class="perm-card">
+          <div class="perm-name">SENSORS (Gyroscope, Magnetometer)</div>
+          <div class="perm-desc">Used by the Compass and Level tools to read device orientation. Sensor data stays on-device and is not shared.</div>
+        </div>
+
+        <div class="perm-card">
+          <div class="perm-name">READ_CONTACTS</div>
+          <div class="perm-desc">Used optionally in the QR Suite to generate Contact QR codes. Contact data is only read when you explicitly choose a contact and is never stored or uploaded.</div>
+        </div>
+
+        <div class="perm-card">
+          <div class="perm-name">READ_EXTERNAL_STORAGE / PHOTOS</div>
+          <div class="perm-desc">Used by the Notes and QR tools to attach or export images. Files are only accessed when you initiate an action and are never uploaded without consent.</div>
+        </div>
+
+        <div class="perm-card">
+          <div class="perm-name">POST_NOTIFICATIONS</div>
+          <div class="perm-desc">Used by the Notes tool to send local reminders you set yourself. Notifications are generated on-device — no push notification server is involved.</div>
+        </div>
+
+        <div class="perm-card">
+          <div class="perm-name">INTERNET / NETWORK ACCESS</div>
+          <div class="perm-desc">Used to fetch live currency exchange rates, sync Firebase authentication, and load remote configuration. No personal data is sent without your knowledge.</div>
+        </div>
+
+        <div class="perm-card">
+          <div class="perm-name">ACCESS_NETWORK_STATE / WIFI_STATE</div>
+          <div class="perm-desc">Used to check connectivity status and for QR code WiFi generation. Your WiFi password is never uploaded.</div>
+        </div>
+
+        <div class="perm-card">
+          <div class="perm-name">RECEIVE_BOOT_COMPLETED</div>
+          <div class="perm-desc">Used to restore scheduled note reminders after a device restart. No data is transmitted.</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Data We Collect -->
+    <div class="section">
+      <h2><span class="icon">📊</span> Data We Collect</h2>
+      <ul>
+        <li><strong>Usage Analytics</strong> — Anonymous app usage events via Firebase Analytics (e.g., which tools are used). No personally identifiable information is included.</li>
+        <li><strong>Crash Reports</strong> — Automatic crash logs via Firebase Crashlytics to help us fix bugs. These include device model, OS version, and stack traces — no personal data.</li>
+        <li><strong>Purchase Records</strong> — Subscription status is verified through Google Play Billing. We do not store payment details — all billing is handled by Google.</li>
+        <li><strong>Firebase Auth (optional)</strong> — If you use code redemption, anonymous authentication may be used. No email or password is required.</li>
+      </ul>
+    </div>
+
+    <!-- Data We DO NOT Collect -->
+    <div class="section">
+      <h2><span class="icon">🚫</span> Data We Do NOT Collect</h2>
+      <ul>
+        <li>Your name, email address, or any personal identity information</li>
+        <li>Camera images or photos — they are never uploaded</li>
+        <li>Audio recordings — Sound Meter is entirely on-device</li>
+        <li>Your location or GPS coordinates</li>
+        <li>Your contacts list — only read momentarily if you choose to generate a Contact QR</li>
+        <li>Your WiFi password — only used locally to generate a QR code</li>
+        <li>Any data from your Notes — stored locally on your device using Hive</li>
+      </ul>
+    </div>
+
+    <!-- Third Party Services -->
+    <div class="section">
+      <h2><span class="icon">🔗</span> Third-Party Services</h2>
+      <p>Utilix uses the following third-party services, each with their own privacy policies:</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank">Google Firebase</a> — Analytics, Crashlytics, Firestore, Authentication</li>
+        <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Billing</a> — In-app subscription processing</li>
+        <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob</a> — Ads shown to free-tier users only (no ads for premium users)</li>
+        <li><a href="https://www.exchangerate-api.com/privacy" target="_blank">Exchange Rate API</a> — Live currency conversion rates (Currency Converter tool)</li>
+      </ul>
+    </div>
+
+    <!-- Data Storage -->
+    <div class="section">
+      <h2><span class="icon">💾</span> Data Storage & Security</h2>
+      <p>
+        Most of your data (Notes, preferences, settings, theme choices) is stored <strong>locally on your device</strong> using Hive, a fast local database. This data never leaves your device unless you explicitly export it.
+      </p>
+      <p>
+        Firebase data (crash logs, analytics) is stored on Google's secure servers in compliance with GDPR and other applicable regulations.
+      </p>
+      <p>
+        We implement industry-standard security measures. However, no method of transmission over the internet is 100% secure.
+      </p>
+    </div>
+
+    <!-- Children -->
+    <div class="section">
+      <h2><span class="icon">👶</span> Children's Privacy</h2>
+      <p>
+        Utilix is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, please contact us immediately.
+      </p>
+    </div>
+
+    <!-- Your Rights -->
+    <div class="section">
+      <h2><span class="icon">⚖️</span> Your Rights</h2>
+      <ul>
+        <li><strong>Access:</strong> You can view all locally stored data directly in the app</li>
+        <li><strong>Deletion:</strong> Uninstalling the app removes all locally stored data</li>
+        <li><strong>Opt-out:</strong> You can disable analytics in your device settings or via Firebase opt-out</li>
+        <li><strong>Data portability:</strong> Notes can be exported as PDF from within the app</li>
+      </ul>
+    </div>
+
+    <!-- Changes -->
+    <div class="section">
+      <h2><span class="icon">🔄</span> Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Any changes will be reflected with a new "Last Updated" date at the top of this page. We recommend reviewing this page periodically.
+      </p>
+      <p>
+        Continued use of the App after changes constitutes your acceptance of the updated policy.
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-box">
+      <h3>Questions or Concerns?</h3>
+      <p>If you have any questions about this Privacy Policy or how we handle your data, please reach out to us.</p>
+      <a href="mailto:support@smarttools.dev">✉️ &nbsp;support@smarttools.dev</a>
+    </div>
+
+    <div class="footer">
+      <p>© 2026 SmartTools · Utilix · com.smarttools.utilix</p>
+      <p style="margin-top:6px;">This policy is effective as of March 7, 2026</p>
+    </div>
+
+  </div>
+</body>
+</html>
